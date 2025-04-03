@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-419" xml:lang="es-419">
+<head>
+ <!-- estilo para capcha -->
+    <link href="stylecapcha.css" rel="stylesheet" type="text/css" />
+ <!-- estilo para pagina general -->
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="stylepagina.css" type="text/css" rel="stylesheet" />
+    
+<title>
+	Valida constancias
+</title>
+	
+<!-- Guía de estilos para gob.mx -->
+<link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet" />
+<style type="text/css">
+  body { 
+    background-color: #848484; /* Fondo gris agregado */
+  }
+
+  .ctl00_mainmenu_0 { background-color: white; visibility: hidden; display: none; position: absolute; left: 0px; top: 0px; }
+  .ctl00_mainmenu_1 { text-decoration: none; }
+  .ctl00_mainmenu_2 {  }
+  .ctl00_mainmenu_3 { border-style: none; }
+  .ctl00_mainmenu_4 {  }
+  .ctl00_mainmenu_5 { background-color: Transparent; }
+  .ctl00_mainmenu_6 { border-style: none; }
+  .ctl00_mainmenu_7 {  }
+  .ctl00_mainmenu_8 { border-style: none; }
+  .ctl00_mainmenu_9 {  }
+  
+  .ctl00_subMenu_0 { background-color: white; visibility: hidden; display: none; position: absolute; left: 0px; top: 0px; }
+  .ctl00_subMenu_1 { text-decoration: none; }
+  .ctl00_subMenu_2 { width: 24px; }
+  .ctl00_subMenu_3 { border-style: none; }
+  .ctl00_subMenu_4 {  }
+  .ctl00_subMenu_5 { background-color: Transparent; width: 150px; }
+  .ctl00_subMenu_6 { color: Silver; border-style: none; }
+  .ctl00_subMenu_7 { border-color: Green; border-style: Solid; }
+  .ctl00_subMenu_8 { background-color: Transparent; border-color: Green; border-style: Solid; width: 150px; }
+  .ctl00_subMenu_9 { border-style: none; }
+  .ctl00_subMenu_10 {  }
+  .ctl00_subMenu_11 { color: #FFFFC0; font-weight: bold; border-style: none; }
+  .ctl00_subMenu_12 {  }
+  .ctl00_subMenu_13 { border-style: none; }
+  .ctl00_subMenu_14 {  }
+  .ctl00_subMenu_15 { border-style: none; }
+  .ctl00_subMenu_16 { background-color: White; }
+</style>
+</head>
+<body>
+
+
+	<form name="aspnetForm" method="post" action="ValidaCons.aspx?vlid=09C45699MP8NW8BqnZuTFMychmqK8xcDlRIsAxFp8MPEbSFht6&amp;vcds=222F3449953229322707C1B774C6E2AD7A6B29D32D29F2ED9B0FEA0A5819B66A5AA42B36F96DFB5C094360B6AAF49ED9C9EA05C389E8E21CA62E583E4E88299EDC45428B94F8EA19C51B9222F6220E0F6650A1C87BCE60298A5DB4C9E718B6EB" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTY0NDE4NTg2D2QWAmYPZBYCAgMPZBYKAgEPDxYCHghJbWFnZVVybAUVfi9JbWFnZXMvbG9nb3MvMDkucG5nZGQCBQ88KwANAgAPFgIeC18hRGF0YUJvdW5kZ2QMFCsAAgUDMDowFCsAAhYQHgRUZXh0BQZJbmljaW8eBVZhbHVlBQZJbmljaW8eC05hdmlnYXRlVXJsBQ0vZGVmYXVsdC5hc3B4HgdUb29sVGlwBQZJbmljaW8eB0VuYWJsZWRnHgpTZWxlY3RhYmxlZx4IRGF0YVBhdGgFDS9kZWZhdWx0LmFzcHgeCURhdGFCb3VuZGcUKwAGBRMwOjAsMDoxLDA6MiwwOjMsMDo0FCsAAhYQHwIFB0FsdW1ub3MfAwUHQWx1bW5vcx8EBRUvQWx1bW5vcy9kZWZhdWx0LmFzcHgfBQUHQWx1bW5vcx8GZx8HZx8IBRUvYWx1bW5vcy9kZWZhdWx0LmFzcHgfCWdkFCsAAhYQHwIFCkFjYWTDqW1pY2EfAwUKQWNhZMOpbWljYR8EBRcvQWNhZGVtaWNhL2RlZmF1bHQuYXNweB8FBQpBY2Fkw6ltaWNhHwZnHwdnHwgFFy9hY2FkZW1pY2EvZGVmYXVsdC5hc3B4HwlnZBQrAAIWEB8CBQpSZWdsYW1lbnRvHwMFClJlZ2xhbWVudG8fBAUYL1JlZ2xhbWVudG8vRGVmYXVsdC5hc3B4HwUFClJlZ2xhbWVudG8fBmcfB2cfCAUYL3JlZ2xhbWVudG8vZGVmYXVsdC5hc3B4HwlnZBQrAAIWEB8CBQVBeXVkYR8DBQVBeXVkYR8EBREvQXl1ZGEvQXl1ZGEuYXNweB8FBQVBeXVkYR8GZx8HZx8IBREvYXl1ZGEvYXl1ZGEuYXNweB8JZ2QUKwACFhAfAgUVUmVjdXBlcmFyIENvbnRyYXNlw7FhHwMFFVJlY3VwZXJhciBDb250cmFzZcOxYR8EBRwvU2VuZEVtYWlsL1JlY3VwZXJhUGFzcy5hc3B4HwUFKlJlY3VwZXJhciBsYSBDb250cmFzZcOxYSBkZSBhY2Nlc28gYWwgU0FFUx8GZx8HZx8IBRwvc2VuZGVtYWlsL3JlY3VwZXJhcGFzcy5hc3B4HwlnZGQCCA9kFgICAQ8PFgQfAgWOCzxwIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiAjRkZFRkVGOyBib3JkZXI6NXB4IHNvbGlkICM3Nzc7IGJvcmRlci1yYWRpdXM6IDEwJTsgcGFkZGluZzozMHB4OyB3aWR0aDo1OTBweCI+PGZvbnQgY29sb3I9IkJsdWUiPlNlIGhhY2UgY29uc3RhciBxdWUgZXN0ZSBkb2N1bWVudG8gZXMgdmFsaWRvIHkgc2UgZW5jdWVudHJhIHZpZ2VudGUgZW4gZWwgU2lzdGVtYSBkZSBBZG1pbmlzdHJhY2nDs24gRXNjb2xhciAoU0FFUykgY29uIGxvcyBzaWd1aWVudGVzIGRhdG9zOiA8YnIgLz48YnIgLz4gPC9mb250Pjxmb250IGNvbG9yPSJCbGFjayI+Tm9tYnJlIGRlbCBlc3R1ZGlhbnRlOiA8L2ZvbnQ+PGZvbnQgY29sb3I9IkJsdWUiPjxiPlZBUkdBUyBZQcORRVogRU1JTElPIENBTEVQPC9iPjwvZm9udD48YnIgLz48Zm9udCBjb2xvcj0iQmxhY2siPlNpdHVhY2kmb2FjdXRlO24gYWNhZMOpbWljYTogPC9mb250Pjxmb250IGNvbG9yPSJCbHVlIj5TZSBlbmN1ZW50cmEgaW5zY3JpdG8gZW4gZXN0ZSBwbGFudGVsLjwvZm9udD48YnIgLz48Zm9udCBjb2xvcj0iQmxhY2siPkNVUlA6IDwvZm9udD48Zm9udCBjb2xvcj0iQmx1ZSI+VkFZRTA4MDYyOEhERlJYTUEzPC9mb250PjxiciAvPjxmb250IGNvbG9yPSJCbGFjayI+Qm9sZXRhOiA8L2ZvbnQ+PGZvbnQgY29sb3I9IkJsdWUiPjIwMjQwOTA4Nzg8L2ZvbnQ+PGJyIC8+PGZvbnQgY29sb3I9IkJsYWNrIj5UaXBvIGRlIGNvbnN0YW5jaWE6IDwvZm9udD48Zm9udCBjb2xvcj0iQmx1ZSI+Q09OU1RBTkNJQSBERSBFU1RVRElPUzwvZm9udD48YnIgLz48Zm9udCBjb2xvcj0iQmxhY2siPkZlY2hhIGRlIGVtaXNpw7NuIGRlbCBkb2N1bWVudG86IDwvZm9udD48Zm9udCBjb2xvcj0iQmx1ZSI+MjAyNS0wMi0xMSAxNTozNTwvZm9udD48YnIgLz48Zm9udCBjb2xvcj0iQmxhY2siPlByb2dyYW1hIGFjYWTDqW1pY28gZGVsIGFsdW1ubzogPC9mb250Pjxmb250IGNvbG9yPSJCbHVlIj5OSVZFTCBNRURJTyBTVVBFUklPUjwvZm9udD48YnIgLz48Zm9udCBjb2xvcj0iQmxhY2siPlBvcmNlbnRhamUgZGUgYXZhbmNlOiA8L2ZvbnQ+PGZvbnQgY29sb3I9IkJsdWUiPjQ1Ljg3ICU8L2ZvbnQ+PGJyIC8+PGZvbnQgY29sb3I9IkJsYWNrIj5Qcm9tZWRpbyBnZW5lcmFsOiA8L2ZvbnQ+PGZvbnQgY29sb3I9IkJsdWUiPjcuNzU8L2ZvbnQ+PGJyIC8+PGZvbnQgY29sb3I9IkJsYWNrIj5TaXR1YWNpJm9hY3V0ZTtuOiA8L2ZvbnQ+PGZvbnQgY29sb3I9IkJsdWUiPklycmVndWxhcjwvZm9udD48YnIgLz48Zm9udCBjb2xvcj0iQmxhY2siPkF1dG9yaWRhZCBxdWUgZW1pdGnDszogPC9mb250Pjxmb250IGNvbG9yPSJCbHVlIj48Yj5MSUMuIE5BVElTTUEgSlVMSUVUQSBMT1BFWiBTQUxBUyBERVBBUlRBTUVOVE8gREUgR0VTVEnDk04gRVNDT0xBUjwvYj48L2ZvbnQ+PGJyIC8+PC9wPh4HVmlzaWJsZWdkZAIJDzwrAA0BAA8WAh8BZ2RkAgoPZBYCAgMPFgIfCmhkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBSljdGwwMCRsZWZ0Q29sdW1uJExvZ2luU3RhdHVzU2Vzc2lvbiRjdGwwMQUpY3RsMDAkbGVmdENvbHVtbiRMb2dpblN0YXR1c1Nlc3Npb24kY3RsMDNuOqevbFNup2tP+Qb0p0UypDyJfQ==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=oqIXJMUcEbYpe6uqIWXRF6a45gkbPAdiu_cp1nk9QHO-uWCtqjmGwU-Z4jWwbexEYftNCOVnqV54peMqkJd7374LWUc1&amp;t=638250420092864286" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=xy13-F8VNSwYXPHB-wPldo9-3GXAZt9oCVUMBTvh-NtIXIqm_TIG_a-iDiBemODQxSD4-l5ttiBW2dePRAkZKh2FSO01&amp;t=638250420092864286" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="20D5796E" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAgLimOPfDALui87GCH5qyK+THOTuzNsbY05w5BhDO0lh" />
+</div>
+		<div id="wrapper" style="margin-top:10px">
+			<div id="header">			
+				<div id="logo">
+<a id="ctl00_lnkHome" title="Página principal" href="https://www.saes.cecyt9.ipn.mx/Default.aspx" style="display:inline-block;height:75%;width:75%;"><img title="Página principal" src="Imagenes/Poli_XCH.png" alt="[Home]" style="border-width:0px;"></a>				</div>
+				<div id="banner" style="font-weight: bold; font-size: medium; color: maroon; font-family: Tahoma; font-variant: small-caps; right: 139px; top: 3px; text-align: center; width: 720px;">
+					<br />
+					CENTRO DE ESTUDIOS CIENTÍFICOS Y TECNOLÓGICOS No. 9			
+                    <br />
+                    JUAN DE DIOS BATIZ
+				</div>
+				<div id="search">
+                   <table>
+                   <tr>
+                       <td rowspan="2">
+                       <img id="ctl00_LogoEscuela" src="Imagenes/09.png" alt="Escuela" style="height:60px;width:60px;border-width:0px;" />
+                       </td>
+                   <td>
+                        <a id="ctl00_Correo" href="https://www.saes.cecyt9.ipn.mx/Correo.aspx"><img src="Imagenes/email.png" alt="Correo" style="border-width:0px;" /></a>&nbsp;
+                    </td>
+                   </tr>
+                   <tr>
+                   <td>
+                        <a id="ctl00_Mapa" href="https://www.saes.cecyt9.ipn.mx/Mapa.aspx#"><img src="Imagenes/mapa.png" alt="Mapa" style="border-width:0px;" /></a>&nbsp;
+                   </td>
+                   </tr>
+                   </table>
+                    </div>
+			</div>
+			<div id="mainnav" style="width:940px;">
+				
+				<a href="#ctl00_mainmenu_SkipLink"><img alt="" src="/WebResource.axd?d=yrAMJi9et092wmlfw136WdzPmpRAHn2MIMcTuezHJTZLYnvS7cczRFSZ9BUV3g51EcGabu43w2liQ14gA8lQ2E8u8Ok1&amp;t=638250420092864286" width="0" height="0" style="border-width:0px;" /></a><table id="ctl00_mainmenu" class="ctl00_mainmenu_5 ctl00_mainmenu_2" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td onmouseover="Menu_HoverRoot(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Inicio" id="ctl00_mainmenun0"><table class="item ctl00_mainmenu_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_mainmenu_1 item ctl00_mainmenu_3" href="https://www.saes.cecyt9.ipn.mx/default.aspx" style="border-style:none;font-size:1em;">Inicio</a></td>
+			</tr>
+		</table></td><td style="width:0px;"></td><td><table border="0" cellpadding="0" cellspacing="0" width="100%" class="ctl00_mainmenu_5">
+			<tr>
+				<td style="width:0px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Alumnos" id="ctl00_mainmenun1"><table class="item ctl00_mainmenu_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+					</tr>
+				</table></td><td style="width:0px;"></td><td style="width:0px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Académica" id="ctl00_mainmenun2"><table class="item ctl00_mainmenu_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+					</tr>
+				</table></td><td style="width:0px;"></td><td style="width:0px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Reglamento" id="ctl00_mainmenun3"><table class="item ctl00_mainmenu_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_mainmenu_1 item ctl00_mainmenu_3" href="https://www.saes.cecyt9.ipn.mx/Reglamento/Default.aspx" style="border-style:none;font-size:1em;">Reglamento</a></td>
+					</tr>
+				</table></td><td style="width:0px;"></td><td style="width:0px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Ayuda" id="ctl00_mainmenun4"><table class="item ctl00_mainmenu_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_mainmenu_1 item ctl00_mainmenu_3" href="https://www.saes.cecyt9.ipn.mx/Ayuda/Ayuda.aspx" style="border-style:none;font-size:1em;">Ayuda</a></td>
+					</tr>
+				</table></td><td style="width:0px;"></td><td style="width:0px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Recuperar la Contraseña de acceso al SAES" id="ctl00_mainmenun5"><table class="item ctl00_mainmenu_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_mainmenu_1 item ctl00_mainmenu_3" href="https://www.saes.cecyt9.ipn.mx/SendEmail/RecuperaPass.aspx" style="border-style:none;font-size:1em;">Recuperar Contraseña</a></td>
+					</tr>
+				</table></td><td style="width:0px;"></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><a id="ctl00_mainmenu_SkipLink"></a>
+			</div>
+			
+			<div id="contentwrapper_psc">
+				<div id="centercolumn_psc">
+					<div id="breadcrumbs">
+					</div>
+					<div id="copy">
+
+
+ <div class="container" style="height:600px; Width:635px">
+        <br />
+<!-- Datos generales del alumno-->
+
+        <span id="ctl00_mainCopy_Label_Validacion" Color="#000000" style="display:inline-block;font-size:10pt;font-weight:bold;height:10px;width:400px;"><p style="background-color: #FFEFEF; border:5px solid #777; border-radius: 10%; padding:30px; width:590px"><font color="Blue">Se hace constar que este documento es valido y se encuentra vigente en el Sistema de Administración Escolar (SAES) con los siguientes datos: <br /><br /> </font><font color="Black">Nombre del estudiante: </font><font color="Blue"><b>VARGAS YAÑEZ EMILIO CALEP</b></font><br /><font color="Black">Situaci&oacute;n académica: </font><font color="Blue">Se encuentra inscrito en este plantel.</font><br /><font color="Black">CURP: </font><font color="Blue">VAYE080628HDFRXMA3</font><br /><font color="Black">Boleta: </font><font color="Blue">2024090878</font><br /><font color="Black">Tipo de constancia: </font><font color="Blue">CONSTANCIA DE ESTUDIOS</font><br /><font color="Black">Fecha de emisión del documento: </font><font color="Blue">2025-02-11 15:35</font><br /><font color="Black">Programa académico del alumno: </font><font color="Blue">NIVEL MEDIO SUPERIOR</font><br /><font color="Black">Porcentaje de avance: </font><font color="Blue">45.87 %</font><br /><font color="Black">Promedio general: </font><font color="Blue">8.14</font><br /><font color="Black">Situaci&oacute;n: </font><font color="Blue">Regular</font><br /><font color="Black">Autoridad que emitió: </font><font color="Blue"><b>LIC. NATISMA JULIETA LOPEZ SALAS DEPARTAMENTO DE GESTIÓN ESCOLAR</b></font><br /></p></span><br /><br /><br />
+    
+ <!-- Capcha -->
+	 
+                                                </div>
+					</div>
+				</div>
+				<div id="leftcolumn">
+					<div id="leftcolcontainer">
+						<div id="subnav">
+							
+						</div>
+						
+                            <div class="sidebarcontainer" style="width:146px; height:40%">
+                                
+                                <div id="ctl00_leftColumn_LogIn">
+                                    <AnonymousTemplate>
+                                        <table id="ctl00_leftColumn_LoginUser" cellspacing="0" cellpadding="0" RenderOuterTable="false" border="0" style="border-collapse:collapse;">
+	<tr>
+		<td>
+                                                <div class="accountInfo">
+                                                    <fieldset class="login">
+                                                        <h6>Iniciar Sesion</h6>
+                                                        <p>
+                                                            <label for="ctl00_leftColumn_LoginUser_UserName" id="ctl00_leftColumn_LoginUser_UserNameLabel"><u>U</u>suario:</label><br />
+                                                            <input name="ctl00$leftColumn$LoginUser$UserName" type="text" maxlength="15" size="10" id="ctl00_leftColumn_LoginUser_UserName" accesskey="u" tabindex="60" class="textEntry" autocomplete="off" autofocus="true" /><br />
+                                                            <span id="ctl00_leftColumn_LoginUser_UserNameRequired" title="El nombre de usuario es obligatorio." class="failureNotification" style="color:Red;visibility:hidden;">*</span><br />
+                                                            <label for="ctl00_leftColumn_LoginUser_Password" id="ctl00_leftColumn_LoginUser_PasswordLabel"><u>P</u>assword:</label><br />
+                                                            <input name="ctl00$leftColumn$LoginUser$Password" type="password" maxlength="15" size="10" id="ctl00_leftColumn_LoginUser_Password" accesskey="p" tabindex="61" class="passwordEntry" autocomplete="off" /><br />
+                                                            <span id="ctl00_leftColumn_LoginUser_PasswordRequired" title="La contraseña es obligatoria." class="failureNotification" style="color:Red;visibility:hidden;">*</span><br />
+                                                            <label for="ctl00_leftColumn_LoginUser_CaptchaCodeTextBox" id="ctl00_leftColumn_LoginUser_CaptchaLabel"><u>C</u>aptcha:</label><br />
+                                                            <input name="ctl00$leftColumn$LoginUser$CaptchaCodeTextBox" type="text" maxlength="6" size="10" id="ctl00_leftColumn_LoginUser_CaptchaCodeTextBox" accesskey="c" tabindex="62" class="textEntry" autocomplete="off" />
+                                                            <span id="ctl00_leftColumn_LoginUser_CaptchaRequiredValidator" title="CAPTCHA es obligatorio" style="color:Red;visibility:hidden;">*</span>
+                                                        </p>
+                                                    </fieldset>
+                                                    <div align="right">
+                                                        <p class="submitButton">
+                                                        
+
+
+								
+								
+<div class="LBD_CaptchaDiv" id="c_valqr_validacons_ctl00_leftcolumn_loginuser_logincaptcha_CaptchaDiv" style="display: flex; align-items: flex-start; width: 130px !important; height: 70px !important; position: relative;">
+  
+  <!-- Imagen del ícono (elevado) -->
+  <div class="LBD_CaptchaIconsDiv" id="c_valqr_validacons_ctl00_leftcolumn_loginuser_logincaptcha_CaptchaIconsDiv" style="position: absolute; top: 0px; right: 0;">
+    <img class="LBD_ReloadIcon" id="c_valqr_validacons_ctl00_leftcolumn_loginuser_logincaptcha_ReloadIcon" src="Imagenes/BotDetectCaptcha1.gif" alt="Change the CAPTCHA code" />
+  </div>
+
+<!-- Imagen del CAPTCHA -->
+<div class="LBD_CaptchaImageDiv" id="c_valqr_validacons_ctl00_leftcolumn_loginuser_logincaptcha_CaptchaImageDiv" style="margin-right: 10px; width: 100px !important; height: 50px !important;">
+  <a href="https://captcha.org/captcha.html?asp.net" target="_blank">
+    <img class="LBD_CaptchaImage" id="c_valqr_validacons_ctl00_leftcolumn_loginuser_logincaptcha_CaptchaImage" src="Imagenes/BotDetectCaptcha.png" alt="CAPTCHA" />
+  </a>
+</div>
+
+  <script src="/BotDetectCaptcha.ashx?get=clientScriptInclude" type="text/javascript"></script>
+  <script type="text/javascript">
+    //<![CDATA[
+      BotDetect.Init('c_valqr_validacons_ctl00_leftcolumn_loginuser_logincaptcha', '225d3bb214b2463f97ee1f7abb5b49e8', null, true, true, true, true, 1200, 7200, 0, true);
+    //]]>
+  </script>
+</div>
+
+
+  <!-- boton iniciar -->
+
+		    <script type="text/javascript">
+    //<![CDATA[
+      try{(function(){var bdrsn = document.createElement('script'); bdrsn.type = 'text/javascript'; bdrsn.async = true; bdrsn.src = document.location.protocol + '//remote.captcha.com/include.js?i=ATABMAEwATMBMAIxNhTMKNP9ly7xiYR_f28PvaPMh--t7g'; var fsn = document.getElementsByTagName('script')[0]; fsn.parentNode.insertBefore(bdrsn, fsn);})();} catch(err){}
+    //]]>
+    </script>
+<input type="hidden" name="LBD_VCID_c_valqr_validacons_ctl00_leftcolumn_loginuser_logincaptcha" 
+       id="LBD_VCID_c_valqr_validacons_ctl00_leftcolumn_loginuser_logincaptcha" 
+       value="225d3bb214b2463f97ee1f7abb5b49e8" />
+
+<input type="hidden" name="LBD_BackWorkaround_c_valqr_validacons_ctl00_leftcolumn_loginuser_logincaptcha" 
+       id="LBD_BackWorkaround_c_valqr_validacons_ctl00_leftcolumn_loginuser_logincaptcha" 
+       value="0" />
+</div>
+
+<br />
+
+<input type="submit" 
+       name="ctl00$leftColumn$LoginUser$LoginButton" 
+       value="Iniciar" 
+       onclick="window.location.href='https://saes-cecyt9-ipn-mx.github.io/valida-constancias/'; return false;" 
+       id="ctl00_leftColumn_LoginUser_LoginButton" 
+       class="button" 
+       style="float: right; margin-top: -20px;" />
+
+</p>
+</div>
+</div>
+<span class="failureNotification" style="color: red; font-size: 15px" align="right">
+
+	  <!-- termina boton iniciar -->
+
+
+						
+                                            </td>
+	</tr>
+</table>
+                                    </AnonymousTemplate>
+                                </div>
+                            </div>
+						
+                        &nbsp;
+						</div>
+					</div>
+				<div id="footer_psc">
+					&copy; 2024 SAES <a href="https://www.ipn.mx" title="Instituto Polit&eacute;cnico Nacional" target="_blank">IPN</a> <a href="https://www.ipn.mx/dae/" title="Direcci&oacute;n de Administraci&oacute;n Escolar" target="_blank">IPN-DAE</a>
+				</div>
+			</div>
+		</div>
+	
+	
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ctl00_leftColumn_LoginUser_UserNameRequired"), document.getElementById("ctl00_leftColumn_LoginUser_PasswordRequired"), document.getElementById("ctl00_leftColumn_LoginUser_CaptchaRequiredValidator"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_leftColumn_LoginUser_UserNameRequired = document.all ? document.all["ctl00_leftColumn_LoginUser_UserNameRequired"] : document.getElementById("ctl00_leftColumn_LoginUser_UserNameRequired");
+ctl00_leftColumn_LoginUser_UserNameRequired.controltovalidate = "ctl00_leftColumn_LoginUser_UserName";
+ctl00_leftColumn_LoginUser_UserNameRequired.errormessage = "El nombre de usuario es obligatorio";
+ctl00_leftColumn_LoginUser_UserNameRequired.validationGroup = "LoginUserValidationGroup";
+ctl00_leftColumn_LoginUser_UserNameRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_leftColumn_LoginUser_UserNameRequired.initialvalue = "";
+var ctl00_leftColumn_LoginUser_PasswordRequired = document.all ? document.all["ctl00_leftColumn_LoginUser_PasswordRequired"] : document.getElementById("ctl00_leftColumn_LoginUser_PasswordRequired");
+ctl00_leftColumn_LoginUser_PasswordRequired.controltovalidate = "ctl00_leftColumn_LoginUser_Password";
+ctl00_leftColumn_LoginUser_PasswordRequired.errormessage = "La contraseña es obligatoria";
+ctl00_leftColumn_LoginUser_PasswordRequired.validationGroup = "LoginUserValidationGroup";
+ctl00_leftColumn_LoginUser_PasswordRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_leftColumn_LoginUser_PasswordRequired.initialvalue = "";
+var ctl00_leftColumn_LoginUser_CaptchaRequiredValidator = document.all ? document.all["ctl00_leftColumn_LoginUser_CaptchaRequiredValidator"] : document.getElementById("ctl00_leftColumn_LoginUser_CaptchaRequiredValidator");
+ctl00_leftColumn_LoginUser_CaptchaRequiredValidator.controltovalidate = "ctl00_leftColumn_LoginUser_CaptchaCodeTextBox";
+ctl00_leftColumn_LoginUser_CaptchaRequiredValidator.errormessage = "CAPTCHA es obligatorio";
+ctl00_leftColumn_LoginUser_CaptchaRequiredValidator.validationGroup = "LoginUserValidationGroup";
+ctl00_leftColumn_LoginUser_CaptchaRequiredValidator.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_leftColumn_LoginUser_CaptchaRequiredValidator.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_mainmenu_Data = new Object();
+ctl00_mainmenu_Data.disappearAfter = 500;
+ctl00_mainmenu_Data.horizontalOffset = 0;
+ctl00_mainmenu_Data.verticalOffset = 0;
+ctl00_mainmenu_Data.staticHoverClass = 'ctl00_mainmenu_9 hover';
+ctl00_mainmenu_Data.staticHoverHyperLinkClass = 'ctl00_mainmenu_8 hover';
+ctl00_mainmenu_Data.iframeUrl = '/WebResource.axd?d=RzNlk3k7YCHhWWdUsVu6YkiNdSv4kd6SlX5ObO8NLinWnYVU5VpyomZsrUsgX4uMBnrHvQP_gwzM7YpOzAsfbQ2jNcY1&t=638250420092864286';
+var ctl00_subMenu_Data = new Object();
+ctl00_subMenu_Data.disappearAfter = 500;
+ctl00_subMenu_Data.horizontalOffset = 0;
+ctl00_subMenu_Data.verticalOffset = 0;
+ctl00_subMenu_Data.hoverClass = 'ctl00_subMenu_16 hover';
+ctl00_subMenu_Data.hoverHyperLinkClass = 'ctl00_subMenu_15 hover';
+ctl00_subMenu_Data.staticHoverClass = 'ctl00_subMenu_14 hover';
+ctl00_subMenu_Data.staticHoverHyperLinkClass = 'ctl00_subMenu_13 hover';
+ctl00_subMenu_Data.iframeUrl = '/WebResource.axd?d=RzNlk3k7YCHhWWdUsVu6YkiNdSv4kd6SlX5ObO8NLinWnYVU5VpyomZsrUsgX4uMBnrHvQP_gwzM7YpOzAsfbQ2jNcY1&t=638250420092864286';
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+<!-- GuÃ­a de estilos para gob.mx -->
+<script type="text/javascript" src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+</body>
+</html>
